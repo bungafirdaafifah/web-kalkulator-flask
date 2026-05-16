@@ -49,3 +49,8 @@ Membuat aplikasi web interaktif yang dapat melakukan perhitungan matematika, ope
 
 ## Catatan
 Rate konversi mata uang menggunakan nilai statis untuk keperluan tugas.
+Catatan pengembangan: saat melakukan development, jangan lupa aktifkan virtual environment terlebih dahulu:
+
+- Windows: .venv\Scripts\activate
+- Linux/Mac: source .venv/bin/activate
+
