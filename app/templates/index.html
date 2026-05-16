@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ title }} - Flask{% endblock %}
+
+{% block content %}
+  <h2>{{ message }}</h2>
+
+  <p>Contoh penggunaan Jinja: daftar angka</p>
+  <ul>
+    {% for i in range(1,6) %}
+      <li>Item {{ i }}</li>
+    {% endfor %}
+  </ul>
+
+  <button id="btn">Klik saya</button>
+{% endblock %}
